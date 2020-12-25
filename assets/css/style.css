@@ -1,3 +1,10 @@
+body{
+    font-family: 'Germania One', cursive;
+}
+.card-text{
+    font-family: 'Cabin', sans-serif;
+}
+
 .icono{
     display: inline;
 }
