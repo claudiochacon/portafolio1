@@ -1,17 +1,10 @@
 body{
     font-family: 'Germania One', cursive;
 }
-.card-text{
+.card-text , #parr{
     font-family: 'Cabin', sans-serif;
 }
 
 .icono{
     display: inline;
 }
-header {
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-  }
