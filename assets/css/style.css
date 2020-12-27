@@ -8,3 +8,10 @@ body{
 .icono{
     display: inline;
 }
+header {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
