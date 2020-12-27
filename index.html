@@ -40,8 +40,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link mr-3" data-toggle="tooltip"
-                        data-placement="top" title="Conoce mas de mi" href="#somi">Sobre mí</a>
+                        <a class="nav-link mr-3" data-toggle="tooltip" data-placement="top" title="Conoce mas de mi"
+                            href="#somi">Sobre mí</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mr-3" href="#exp">Experiencia</a>
@@ -50,8 +50,8 @@
                         <a class="nav-link mr-3" href="#trab">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-3" data-toggle="tooltip"
-                        data-placement="top" title="Comunicate conmigo"  href="#cont">Contacto</a>
+                        <a class="nav-link mr-3" data-toggle="tooltip" data-placement="top" title="Comunicate conmigo"
+                            href="#cont">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -59,20 +59,25 @@
     </nav>
 
 
-
-    <header  class="container-fluid">
+    <!--descripcion personal-->
+    <header class="container-fluid">
         <img class="img-fluid" src="assets/img/IMG_20191209_165500054_HDR.jpg" alt="">
-        <h1 class="text-center py-3" >Yo Soy CLAUDIO</h1>
+        <h1 class="text-center py-3">Yo Soy CLAUDIO</h1>
     </header>
     <section class="container my-5 pt-3 d-none d-md-block">
         <div id="somi" class="row">
             <div class="col-12 col-sm-12 col-md-6">
-                <p>En lo personal Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci neque alias sunt fugiat sequi
+                <p>En lo personal Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci neque alias sunt
+                    fugiat sequi
                     mollitia ipsam labore laborum pariatur et? Id natus dolorum minima! Eos odit necessitatibus error
                     accusantium! Laborum.</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6">
-                <p>En lo laboral Técnico en Computación e Informática. Me considero una persona responsable, tolerante, dinámica y organizada. Cuento con gran capacidad de trabajo en equipo y habilidades interpersonales. Mi objetivo es poder desarrollarme en puestos ejecutivos o de terreno en el área informática o administrativa. Me interesa poder trabajar en constructoras, hospitales, colegios, municipalidades o empresas vinculadas al rubro de sistemas computacionales u oficina</p>
+                <p>En lo laboral Técnico en Computación e Informática. Me considero una persona responsable, tolerante,
+                    dinámica y organizada. Cuento con gran capacidad de trabajo en equipo y habilidades interpersonales.
+                    Mi objetivo es poder desarrollarme en puestos ejecutivos o de terreno en el área informática o
+                    administrativa. Me interesa poder trabajar en constructoras, hospitales, colegios, municipalidades o
+                    empresas vinculadas al rubro de sistemas computacionales u oficina</p>
 
             </div>
         </div>
@@ -80,28 +85,63 @@
 
 
 
-
+    <!--Experiencia + carrusel -->
     <section id="exp">
-        <main class="container text-center">
-            <h2 class="text-center my-4 py-4">MI EXPERIENCIA</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="fab fa-html5 fa-5x ml-2"></i>
-                    <h3 class="my-3">HTML5</h3>
-                    <p class="my-3">2020</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fab fa-css3-alt fa-5x ml-2"></i>
-                    <h3 class="my-3">Css3</h3>
-                    <p class="my-3">2020</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fab fa-js fa-5x ml-2"></i>
-                    <h3 class="my-3">Java Script</h3>
-                    <p class="my-3">2020</p>
+        <h2 class="text-center my-2 py-2">MI EXPERIENCIA</h2>
+        <div class="container my-3 py-3">
+            <div class="row justify-content-center">
+                <div class="col-8 bg-danger text-white rounded pt-4 pb-5">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators my-1">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fab fa-html5 fa-5x ml-2"></i>
+                                        <h3 class="my-3">HTML5</h3>
+                                        <p class="my-3">2020</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fab fa-css3-alt fa-5x ml-2"></i>
+                                        <h3 class="my-3">Css3</h3>
+                                        <p class="my-3">2020</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fab fa-js fa-5x ml-2"></i>
+                                        <h3 class="my-3">Java Script</h3>
+                                        <p class="my-3">2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="my-2" src="assets/img/jquery.png" alt="logo jqueri">
+                                        <h3 class="my-3"></h3>
+                                        <p class="my-4">2020</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fab fa-bootstrap fa-5x ml-2"></i>
+                                        <h3 class="my-3">Bootstrap</h3>
+                                        <p class="my-3">2020</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fab fa-github-square fa-5x ml-2"></i>
+                                        <h3 class="my-3">GitHub</h3>
+                                        <p class="my-3">2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </main>
+        </div>
     </section>
 
 
@@ -183,6 +223,7 @@
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
     </section>
 
+    <!--Footer-->
     <footer class="bg-danger text-white py-5 mt-5">
         <div class="container">
             <div class="row">
